@@ -10,6 +10,7 @@ services:
             - "81:81" # Admin Web Port
             # Add any other Stream port you want to expose
             # - '21:21' # FTP
+            - "8000:3000" # React-boilerplate (web1)
         environment:
             # Mysql/Maria connection parameters:
             DB_MYSQL_HOST: "db"
