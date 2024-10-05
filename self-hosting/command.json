@@ -1,0 +1,4 @@
+{
+    "dockerBuildNewImage": "docker image build -t react-boilerplate:latest .",
+    "dockerStartNewContainer": "docker run --name web1 --network self-hosting_default -d -p 3000:3000 -i react-boilerplate"
+}
